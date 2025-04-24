@@ -7,6 +7,11 @@
 #include "math/camera.h"
 #include "grassRenderer.h"
 
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
+#include <glm/gtx/string_cast.hpp>
+
 #define WINDOW_WIDTH 1000
 #define WINDOW_HEIGHT 1000
 
