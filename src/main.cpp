@@ -15,9 +15,9 @@
 #define WINDOW_WIDTH 1000
 #define WINDOW_HEIGHT 1000
 
-#include "SkyBox.h"
+//#include "SkyBox.h"
 #include "utils/utils.h"
-#include "stb_image.h"
+//#include "stb_image.h"
 #include <vector>
 #include <string>
 
@@ -30,7 +30,7 @@ std::string facesCubemap[6] = {
     ".\\textures\\skybox\\back.png"
 };
 
-SkyBox* skyBox;
+//SkyBox* skyBox;
 
 int main() {
   if (!glfwInit()) {
