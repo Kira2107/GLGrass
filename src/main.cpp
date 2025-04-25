@@ -15,6 +15,23 @@
 #define WINDOW_WIDTH 1000
 #define WINDOW_HEIGHT 1000
 
+#include "SkyBox.h"
+#include "utils/utils.h"
+#include "stb_image.h"
+#include <vector>
+#include <string>
+
+std::string facesCubemap[6] = {
+    ".\\textures\\skybox\\right.png",
+    ".\\textures\\skybox\\left.png",
+    ".\\textures\\skybox\\top.png",
+    ".\\textures\\skybox\\bottom.png",
+    ".\\textures\\skybox\\front.png",
+    ".\\textures\\skybox\\back.png"
+};
+
+SkyBox* skyBox;
+
 int main() {
   if (!glfwInit()) {
     std::cerr << "Failed to init GLFW" << std::endl;
